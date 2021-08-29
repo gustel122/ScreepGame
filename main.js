@@ -53,7 +53,7 @@ module.exports.loop = function(){
                 
             }
 
-            if(creep.memory.role === 'maintenance'){
+            if(creep.memory.role === 'maintenancer'){
                 roleMaintenance.run(creep);
                
             }
